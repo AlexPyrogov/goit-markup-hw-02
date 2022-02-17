@@ -1,0 +1,11 @@
+/* 
+Primary color of the text #757575
+Secondary text color #212121
+Accent #2196F3
+White #ffffff and rgb(255, 255, 255, 0.6)
+Black #000000
+*/
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+}
