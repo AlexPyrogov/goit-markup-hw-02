@@ -22,6 +22,9 @@ body{
 a {
   text-decoration: var(--header-color);
 }
+a:hover, a:active{
+  color: var(--accent-color);
+}
 
 li {
   list-style: none;
@@ -30,6 +33,9 @@ li {
 h3 {
   color: var(--secondary-text-color);
 }
+.hero{
+  background-color: var(--secondary-text-color);
+}
 .transcendency{
   font-size: 14px;
 }
@@ -37,7 +43,8 @@ h3 {
   font-size: 16px;
 }
 .hero-title{
-  color: var(--secondary-text-color);
+  color: var(--white-color);
+  font-weight: 900;
   font-size: 44px;
 }
 .section-title{
@@ -47,20 +54,39 @@ h3 {
 .name-title{
   color: var(--secondary-text-color);
 }
+.project-title{
+  color: var(--secondary-text-color);
+  font-size: 18px;
+}
+.project-text{
+  color: var(--primary-text-color);
+  font-size: 16px;
+}
 .nav-link{
   color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
 }
 .nav-contact{
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
 }
 .footer {
   background-color: var(--footer-background-color);
 }
 .address {
   color: var(--white-color);
+  font-weight: 500;
+  font-size: 14px;
 }
 .address a{
   color: var(--footer-contact-color);
+  font-weight: 500;
+  font-size: 14px;
+}
+.address a:hover, .address:active{
+  color: var(--accent-color);
 }
 .logo-web {
   color: var(--accent-color);
@@ -68,9 +94,45 @@ h3 {
   font-size: 26px;
   font-weight: 700;
 }
-.black-color {
+.logo-heder {
    color: var(--black-color);
+   font-family: 'Raleway', sans-serif;
+   font-size: 26px;
+   font-weight: 700;
 }
-.white-color {
+.logo-footer {
   color: var(--white-color);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+.heder-button{
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-width: 0px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.heder-button:hover,
+.heder-button:active {
+  color: var(--accent-color);
+  background-color: var(--white-color);
+  border-width: 0px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.button:hover, .button:active {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-width: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button{
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-background-color);
+  border-width: 0px;
+  font-weight: 500;
+  font-size: 16px;
 }
